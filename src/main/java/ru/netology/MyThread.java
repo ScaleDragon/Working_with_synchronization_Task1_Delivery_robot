@@ -7,7 +7,7 @@ import static ru.netology.GenerateRoute.generateRoute;
 import static ru.netology.NumberOfRightTurns.numberOfRightTurns;
 
 public class MyThread extends Thread {
-  public static final Map<Integer, Integer> sizeToFreq = new HashMap<>();
+    public static final Map<Integer, Integer> sizeToFreq = new HashMap<>();
     private final static String letters = "RLRFR";
     private final static int length = 100;
 

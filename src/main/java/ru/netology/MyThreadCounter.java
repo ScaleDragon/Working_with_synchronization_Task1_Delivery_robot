@@ -21,8 +21,6 @@ public class MyThreadCounter extends Thread {
                     throw new RuntimeException(e);
                 }
             }
-
-
         }
     }
 
@@ -33,8 +31,7 @@ public class MyThreadCounter extends Thread {
                 maxKey = key;
             }
         }
-        System.out.println("Текущий лидер среди частот " +
-                maxKey + " (встретилось  " + maxValue + " раз)");
+        System.out.println("Текущий лидер среди частот " + maxKey + " (встретилось  " + maxValue + " раз)");
         sizeToFreq.remove(maxKey);
     }
 
